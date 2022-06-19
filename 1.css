@@ -1,0 +1,133 @@
+body
+{
+	font-family: arial;
+}
+
+header
+{
+	background: white;
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+	box-shadow: 0 2px 10px silver;
+}
+header a
+{
+	padding: 10px;
+	color: black;
+	text-decoration: none;
+}
+
+
+.banner
+{
+	position: relative;
+}
+.banner img
+{
+	width: 100%;
+}
+.banner strong
+{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	padding: 20px;
+	font-size: 55px;
+	font-family: tahoma;
+	color: grey;
+
+}
+
+
+
+
+.about
+{
+	margin-top: 20px;
+	display: flex;	
+}
+
+.about .left
+{
+	width: 50%;
+	padding: 2%;
+}
+.about .left img
+{
+	opacity: 0.6;
+	width: 100%;
+}
+.about .right
+{
+	line-height: 30px;
+	padding: 2%;
+	width: 50%;
+}
+.about .right .silver
+{
+	color: grey;
+}
+
+
+
+.menu
+{
+	display: flex;
+}
+.menu .left
+{
+	padding: 2%;
+	width: 50%;
+}
+.menu .right
+{
+	padding: 2%;
+	width: 50%;
+}
+.menu .right img
+{
+	width: 100%;
+	opacity: 0.6;
+}
+.menu .left h2
+{
+	color: grey;
+}
+.menu .left p
+{
+	color: silver;
+}
+
+
+.contact
+{
+	padding: 2%;
+}
+.contact h2
+{
+	color: slateblue;
+}
+.contact input
+{
+	width: 100%;
+	padding: 10px;
+	border: 0;
+	border-bottom: 1px solid grey;
+	margin-bottom: 10px;
+}
+.contact button
+{
+	padding: 10px;
+	bordeR: 0;
+}
+
+
+footer
+{
+	text-transform: capitalize;
+	padding: 3%;
+	background: silver;
+	text-align: center;
+
+}
